@@ -5,5 +5,5 @@ document.querySelector(".close").addEventListener("click", function () {
 window.addEventListener("load", async function () {
   setTimeout(function open(event) {
     document.querySelector(".container").style.display = "block";
-  }, 2000);
+  }, 1000);
 });

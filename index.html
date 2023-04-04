@@ -11,30 +11,38 @@
 
   <body>
     <div class="wrapper">
-      <div class="container">
+      <div class="container" id="popupContainer">
         <img src="x.png" class="close" />
-        <img src="popup.jpg" class="pop-up" alt="close" />
+        <div class="button-container">
+          <button onclick="changeImage()" class="button" id="button1">
+            <img src="trflag.png" alt="Button 1" />
+          </button>
+          <button onclick="changeImage()" class="button" id="button2">
+            <img src="ukflag.png" alt="Button 2" />
+          </button>
+        </div>
       </div>
     </div>
 
     <!--Menu Top-->
     <div class="menu1">
-      <img src="/menutop.jpg" alt="menutop" />
+      <img src="/menutop.jpg" alt="menutop" id="image1" />
     </div>
     <!--Menu devam-->
     <div class="menu2">
-      <img src="/menu2.jpg" alt="menu2" />
+      <img src="/menu2.jpg" alt="menu2" id="image2" />
     </div>
     <!--Drinks Top-->
     <div class="menu3">
-      <img src="/drinkstop.jpg" alt="drinktop" />
+      <img src="/drinkstop.jpg" alt="drinktop" id="image3" />
     </div>
     <!--Drinks devam-->
     <div class="menu4">
-      <img src="/drinks2.jpg" alt="drinks2" />
+      <img src="/drinks2.jpg" alt="drinks2" id="image4" />
     </div>
 
     <!-- Js File -->
     <script src="modal.js"></script>
+    <script src="changeIMG.js"></script>
   </body>
 </html>
