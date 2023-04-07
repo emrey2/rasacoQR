@@ -8,7 +8,7 @@ const Container = document.getElementById("popupContainer");
 
 button1.addEventListener("click", () => {
   image1.src = "menutop.jpg";
-  image2.src = "menu2jpg";
+  image2.src = "menu2.jpg";
   image3.src = "drinkstop.jpg";
   image4.src = "drinks2.jpg";
   Container.style.display = "none";
