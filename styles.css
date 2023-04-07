@@ -73,6 +73,10 @@ body {
     z-index: 20;
   }
 
+  .close {
+    margin-right: 8rem;
+  }
+
   .menu1 {
     width: 400px;
     height: auto;
